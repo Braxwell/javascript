@@ -27,7 +27,7 @@ wss.on('connection', function connection(ws, req) {
         wss.clients.forEach(function each(client) {
             // Rediffuser seulement aux autres et seulement si la websocket est encore ouverte
             if (client.readyState === WebSocket.OPEN) {
-                // On envoi les données en json puisqu'il n'est pas possible de faire transiter des objets complexes.
+                // On envoit les données en json puisqu'il n'est pas possible de faire transiter des objets complexes.
                 client.send(JSON.stringify({emetteur: emetteur, texte: data}));
             }
         });
