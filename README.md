@@ -1,19 +1,19 @@
 # Javascript
 Projet Javascript sur la communication entre un serveur et des clients (messagerie instantanée).
 
-##Pour commencer
+## Pour commencer
 
 
-###Pré-requis
+### Pré-requis
 
 
-###Installation
+### Installation
 
 
-##Liens
+## Liens
 WebSockets - https://developer.mozilla.org/fr/docs/WebSockets
 
-##Auteur
+## Auteur
 Brachet Maxime
 
 
